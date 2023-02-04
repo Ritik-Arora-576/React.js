@@ -1,9 +1,10 @@
 # React.js
 
 <h3 align='center'>Commands to create new React App</h3>
-_npx create-react-app my-app_
+Go into the VS code terminal and execute the following commands:<br>
+*npx create-react-app my-app*
 <br>
-_cd my-app_
+*cd my-app*
 <br>
-_npm start_
+*npm start*
 <br>
