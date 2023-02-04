@@ -10,5 +10,5 @@ Go into the VS code terminal and execute the following commands:<br><br>
 <br>
 <br>
 <ul>
-<li>NOTE: npm command is use for downloading the packages permanently into the hard drive while npx command is use for utilizing the packages for the temporary use.</li>
+  <li><strong>NOTE:</strong> npm command is use for downloading the packages permanently into the hard drive while npx command is use for utilizing the packages for the temporary use.</li>
 </ul>
