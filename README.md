@@ -9,4 +9,4 @@ Go into the VS code terminal and execute the following commands:<br><br>
 3. npm start
 <br>
 <br>
-* NOTE: npm command is use for downloading the packages permanently into the hard drive while npx command is use for utilizing the packages for the temporary use.
+-NOTE: npm command is use for downloading the packages permanently into the hard drive while npx command is use for utilizing the packages for the temporary use.
