@@ -1,4 +1,5 @@
 <h1 align='center'>Welcome to React.js<h1>
+<img src="https://www.freecodecamp.org/news/content/images/2021/06/Ekran-Resmi-2019-11-18-18.08.13.png" alt="react.js" align="center" width=40px hieght=40px>
 
 <h3 align='center'>Commands to create new React App</h3>
 Go into the VS code terminal and execute the following commands:<br><br>
