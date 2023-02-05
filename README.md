@@ -15,5 +15,5 @@ Go into the VS code terminal and execute the following commands:<br><br>
   <li>The HTML which is written under <em>App.js</em> gets displayed onto the browser.</li>
   <li><em>App.js</em> contains a function which returns JSX component (JavaScript XML). Function only returns one JSX component in which we can write JavaScript alongwith HTML to make development easy.</li>
   <li>In JSX instead of writing <em>'class'</em> we use <em>'className'</em>.</li>
-  <li><em>node_modules</em> folder contains all the dependencies of the react project. All the dependencies are written inside <em>package.json</em> and <em>package-lock.json</em> and can be re-create <em>node_modules</em> by using the command <em>'npm install'</em>.</li>
+  <li><em>node_modules</em> folder contains all the dependencies of the react project. All the dependencies are written inside <em>package.json</em> and <em>package-lock.json</em> and can be re-install <em>node_modules</em> by using the command <em>'npm install'</em>.</li>
 </ul>
