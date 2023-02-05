@@ -13,6 +13,6 @@ Go into the VS code terminal and execute the following commands:<br><br>
 <ul>
   <li><em>npm</em> command is use for downloading the packages permanently into the hard drive while <em>npx</em> command is use for utilizing the packages for the temporary use.</li>
   <li>The HTML which is written under <em>App.js</em> gets displayed onto the browser.</li>
-  <li><em>App.js</em> contains a function which returns JSX component (JavaScript XML). Function only returns one JSX component in which we can write JavaScript alongwith JavaScript to make development easy.</li>
+  <li><em>App.js</em> contains a function which returns JSX component (JavaScript XML). Function only returns one JSX component in which we can write JavaScript alongwith HTML to make development easy.</li>
   <li>In JSX instead of writing <em>'class'</em> we use <em>'className'</em>.</li>
 </ul>
