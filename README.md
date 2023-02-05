@@ -20,3 +20,7 @@ Go into the VS code terminal and execute the following commands:<br><br>
   <li>In JSX instead of writing <em>'class'</em> we use <em>'className'</em>. Tags which are not having closing tags gets closed in JSX by using '/' into the end of a tag.</li>
   <li><em>node_modules</em> folder contains all the dependencies of the react project. All the dependencies are written inside <em>package.json</em> and <em>package-lock.json</em> and can be re-install <em>node_modules</em> by using the command <em>'npm install'</em>.</li>
 </ul>
+
+ <h3 align='center'>Adding Bootstrap</h3>
+ Go to your <em>index.html</em> file and add stylesheet as well as scripts of Bootstrap. And add HTML contents into <em>App.js</em> and modify it into JSX format.
+ <br><br>
