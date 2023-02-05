@@ -9,6 +9,8 @@ Go into the VS code terminal and execute the following commands:<br><br>
 <strong>3. npm start:</strong> Start the application on browser locally.
 <br>
 <br>
+<strong>NOTE:</strong>
 <ul>
-  <li><strong>NOTE:</strong> <em>npm</em> command is use for downloading the packages permanently into the hard drive while <em>npx</em> command is use for utilizing the packages for the temporary use.</li>
+  <li><em>npm</em> command is use for downloading the packages permanently into the hard drive while <em>npx</em> command is use for utilizing the packages for the temporary use.</li>
+  <li>The HTML which is written under <em>App.js</em> gets displayed onto the browser.</li>
 </ul>
