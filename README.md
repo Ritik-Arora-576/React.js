@@ -24,3 +24,10 @@ Go into the VS code terminal and execute the following commands:<br><br>
  <h3 align='center'>Adding Bootstrap</h3>
  Go to your <em>index.html</em> file and add stylesheet as well as scripts of Bootstrap. And add HTML contents into <em>App.js</em> and modify it into JSX format.
  <br><br>
+
+<h4>React components</h4>
+<ul>
+<li>Make a folder named <em>component</em> into a <em>src</em> folder.</li>
+<li>Make different JS folders for different components and add JSX by making <em>React Function based component (rfc)</em>. Export this function and import within a <em>App.js</em> file. Then, add tag into the JSX.</li>
+</ul>
+<br><br>
