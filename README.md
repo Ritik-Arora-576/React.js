@@ -32,3 +32,9 @@ Go into the VS code terminal and execute the following commands:<br><br>
  <li><em>React Function based component (rfc)</em> takes <em>props</em> as an arguement.</li>
 </ul>
 <br><br>
+<h4>Props and State</h4>
+<ul>
+<li>Props are the properties of an element. (Eg. Heading of a component)</li>
+<li>State is the value of an element. (Eg. text written inside a textfield, value choose in dropdown)</li>
+</ul>
+<br><br>
