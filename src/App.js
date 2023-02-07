@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Textform from "./components/Textform";
 
 // this function only returns one JSX element
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       {/* passing props to Navbar component */}
       <Navbar title="TextUtils"/>
+      <Textform heading="Enter Your Text"/>
     </>
   );
 }
