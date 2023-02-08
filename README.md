@@ -9,7 +9,7 @@ Go into the VS code terminal and execute the following commands:<br><br>
 <br>
 <strong>2. cd <em>application_name</em>:</strong> Get into the application which has been created.
 <br>
-<strong>3. npm start:</strong> Start the application on browser locally.
+<strong>3. npm run start:</strong> Start the application on browser locally.
 <br>
 <br>
 <strong>NOTE:</strong>
