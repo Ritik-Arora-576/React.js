@@ -18,7 +18,7 @@ export default function Textform(props) {
 
   return (
     <div>
-      <div className="container" align='center'>
+      <div className="container my-2" align='center'>
         <h3>{props.heading}</h3>
         <div className="form-group">
           <textarea
@@ -30,7 +30,15 @@ export default function Textform(props) {
             onChange={change}
           ></textarea>
         </div>
-        <button type="button" className="btn btn-success" onClick={toUpperCase}>UpperCase</button>
+        <button type="button" className="btn btn-success my-2" onClick={toUpperCase}>UpperCase</button>
+      </div>
+      <div className="container" align='center'>
+        <p>
+          <strong>Number of Words: </strong>{text.split(" ").length}
+        </p>
+        <p>
+          <strong>Number of Characters: </strong>{text.length}
+        </p>
       </div>
     </div>
   );

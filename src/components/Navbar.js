@@ -7,7 +7,7 @@ import PropTypes from 'prop-types'
 export default function Navbar(props) {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className={`navbar navbar-expand-lg bg-${props.mode} navbar-${props.mode}`}>
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             {/* adding title of a navbar */}
@@ -73,7 +73,7 @@ export default function Navbar(props) {
                 </a>
               </li>
             </ul>
-            <form className="d-flex" role="search">
+            {/* <form className="d-flex" role="search">
               <input
                 className="form-control me-2"
                 type="search"
@@ -83,7 +83,19 @@ export default function Navbar(props) {
               <button className="btn btn-outline-success" type="submit">
                 Search
               </button>
-            </form>
+            </form> */}
+            {/* Javascript can be write into curly braces */}
+            <div className={`form-check form-switch text-${props.mode === "dark"?"light":"dark"}`} onClick={props.chngMode}>
+              <input
+                className="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckDefault"
+              />
+              <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
+                Dark Mode
+              </label>
+            </div>
           </div>
         </div>
       </nav>
