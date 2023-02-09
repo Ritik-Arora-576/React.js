@@ -8,15 +8,21 @@ function App() {
   const [mode, setMode] = useState("light");
 
   const chngMode = () =>{
-    if(mode === 'light') setMode("dark");
-    else setMode("light");
+    if(mode === 'light'){
+      document.body.style.backgroundColor = "black"
+      setMode("dark");
+    }
+    else{
+      document.body.style.backgroundColor = "white"
+      setMode("light");
+    }
   }
 
   return (
     <>
       {/* passing props to Navbar component */}
       <Navbar title="TextUtils" mode={mode} chngMode={chngMode}/>
-      <Textform heading="Enter Your Text"/>
+      <Textform heading="Enter Your Text" mode={mode}/>
     </>
   );
 }
