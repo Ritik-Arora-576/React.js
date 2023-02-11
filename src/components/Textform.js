@@ -9,11 +9,13 @@ export default function Textform(props) {
   const toUpperCase = () =>{
     // function changes the state of the textfeild
     setText(text.toUpperCase());
+    props.showAlert("Text converted to Upper Case.", "info");
   }
 
   const toLowerCase = () =>{
     // function changes the state of the textfeild
     setText(text.toLowerCase());
+    props.showAlert("Text converted to Lower Case.", "info");
   }
 
   const change = (event)=>{
@@ -23,10 +25,12 @@ export default function Textform(props) {
 
   const clear = () =>{
     setText('');
+    props.showAlert("Text has been cleared.", "info");
   }
 
   const copy = () =>{
     navigator.clipboard.writeText(text);
+    props.showAlert("Text copied to clipboard.", "info");
   }
 
   return (
