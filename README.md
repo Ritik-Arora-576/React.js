@@ -43,4 +43,5 @@ Go into the VS code terminal and execute the following commands:<br><br>
 <li>React Router is a standard library for routing in React. It is used to overwrite some components of UI without reloading or altering the URL. It saves the bandwidth of the internet.</li>
 <li><em>npm install react-router-dom</em> command is used to install React Router Dom.</li>
  <li>(a,href) change the path by reloading the side while (Link,to) doesn't reload the side.</li>
+ <li>While using 'path' router does the partial matching and while using 'exact path' does the exact matching of paths.</li>
 </ul>
