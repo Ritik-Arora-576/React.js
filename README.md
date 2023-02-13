@@ -51,5 +51,5 @@ Go into the VS code terminal and execute the following commands:<br><br>
  <h4>Hosting React Application on Github Pages</h4>
  <ul>
   <li><em>npm run build</em>: It creates a build directory with a production build of your app.</li>
-  <li>Go to https://create-react-app.dev/docs/deployment/ to follow the further steps.</li>
+  <li>Go to https://create-react-app.dev/docs/deployment/ to follow further steps.</li>
  </ul>
