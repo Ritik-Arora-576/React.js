@@ -45,6 +45,7 @@ Go into the VS code terminal and execute the following commands:<br><br>
  <li>(a,href) change the path by reloading the side while (Link,to) doesn't reload the side.</li>
  <li>While using 'path' router does the partial matching and while using 'exact path' does the exact matching of paths.</li>
  <li><strong>Syntax for routing:</strong>
+  <br>
  <img src="https://user-images.githubusercontent.com/68052449/218477092-cc214334-8d35-47bb-a9d8-12f77627c899.png" align="center">
  </li>
 </ul>
