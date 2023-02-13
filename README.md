@@ -38,3 +38,8 @@ Go into the VS code terminal and execute the following commands:<br><br>
 <li>State is the value of an element. (Eg. text written inside a textfield, value choose in dropdown)</li>
 </ul>
 <br>
+<h4 align="center">React Router</h4>
+<ul>
+<li>React Router is a standard library for routing in React. It is used to overwrite some components of UI without reloading or altering the URL. It saves the bandwidth of the internet.</li>
+<li><em>npm install react-router-dom</em> command is used to install React Router Dom.</li>
+</ul>
