@@ -46,11 +46,11 @@ Go into the VS code terminal and execute the following commands:<br><br>
  <li>While using 'path' router does the partial matching and while using 'exact path' does the exact matching of paths.</li>
  <li><strong>Syntax for routing:</strong></li>
  <img src="https://user-images.githubusercontent.com/68052449/218477092-cc214334-8d35-47bb-a9d8-12f77627c899.png" align="center" height=50% width=50%>
- <li>While deploying the react application it is not preferable to leave the comments inside a code.</li>
 </ul>
 <br>
  <h4>Hosting React Application on Github Pages</h4>
  <ul>
   <li><em>npm run build</em>: It creates a build directory with a production build of your app.</li>
   <li>Go to https://create-react-app.dev/docs/deployment/ to follow further steps.</li>
+  <li>While deploying the react application it is not preferable to leave the comments inside a code.</li>
  </ul>
