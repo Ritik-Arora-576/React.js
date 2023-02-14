@@ -45,12 +45,18 @@ function App() {
         {/* Routes component is used to switch among the paths */}
         <Routes>
           {/* while using 'path' router does the partial matching and while using 'exact path' does the exact matching of paths */}
-          <Route exact path="/about" element={<About />}/>
-          <Route exact path="/" element={<Textform
-              heading="Enter Your Text"
-              mode={mode}
-              showAlert={showAlert}
-            />}/>
+          <Route exact path="/about" element={<About mode={mode}/>} />
+          <Route
+            exact
+            path="/"
+            element={
+              <Textform
+                heading="Enter Your Text"
+                mode={mode}
+                showAlert={showAlert}
+              />
+            }
+          />
         </Routes>
       </Router>
     </>

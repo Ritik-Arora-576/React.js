@@ -59,7 +59,7 @@ export default function Textform(props) {
       </div>
       <div className="container" align='center'>
         <p>
-          <strong>Number of Words: </strong>{text.length === 0 ? 0:text.trim().split(" ").length}
+          <strong>Number of Words: </strong>{text.length === 0 ? 0:text.trim().split(" ").filter((ele) =>{return ele.length!==0;}).length}
         </p>
         <p>
           <strong>Number of Characters: </strong>{text.length}
