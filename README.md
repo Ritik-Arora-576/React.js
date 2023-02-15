@@ -30,6 +30,7 @@ Go into the VS code terminal and execute the following commands:<br><br>
 <li>Make a folder named <em>component</em> into a <em>src</em> folder.</li>
 <li>Make different JS folders for different components and add JSX by making <em>React Function based component (rfc)</em>. Export this function and import within a <em>App.js</em> file. Then, add tag into the JSX.</li>
  <li><em>React Function based component (rfc)</em> takes <em>props</em> as an arguement.</li>
+ <li><em>React Class based component</em> can be call by using <em>rcc</em>.</li>
 </ul>
 <br>
 <h4>Props and State</h4>
