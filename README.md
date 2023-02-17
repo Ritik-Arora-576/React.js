@@ -48,7 +48,7 @@ Go into the VS code terminal and execute the following commands:<br><br>
  <li><strong>Syntax for routing:</strong></li>
  <img src="https://user-images.githubusercontent.com/68052449/218477092-cc214334-8d35-47bb-a9d8-12f77627c899.png" align="center" height=50% width=50%>
  <li>Sometimes URL gets updated but not the contents of page. So in order to sort this issue we need to assign a <strong>key>/strong> in a tags.</li>
- <img src="https://user-images.githubusercontent.com/68052449/219729651-014c2a1b-feab-404c-ac37-b4e5b0350168.png" align="center" height=50% width=50%>
+ <img src="https://user-images.githubusercontent.com/68052449/219729651-014c2a1b-feab-404c-ac37-b4e5b0350168.png" align="center">
 </ul>
 <br>
  <h4>Hosting React Application on Github Pages</h4>
