@@ -68,7 +68,7 @@ There are the three life stages of React Component:
 <li><strong>Unmount:</strong> Death of React component.</li>
 </ol>
 </li>
- 
+ <br>
 <li>
 Methods in React Component Lifecycle:
 <ol>
@@ -78,4 +78,6 @@ Methods in React Component Lifecycle:
  <li><strong>componentWillUnmount():</strong> It calls before component gets unmount or destroyed to perform some cleanups.</li>
 </ol>
 </li>
+ <br>
+ <li>React Lifecycle Diagram: https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/</li>
 </ul>
