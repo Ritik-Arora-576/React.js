@@ -81,3 +81,10 @@ Methods in React Component Lifecycle:
  <br>
  <li>React Lifecycle Diagram: https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/</li>
 </ul>
+<h3 align='center'>Hide API Key</h3>
+<ul>
+<li>Create <em>.env.local</em> file.</li>
+<li>Make a variable name <strong>REACT_APP_API_KEY (format: REACT_APP_{variableName})</strong> and store your API key in it.</li>
+<li>Add .env.local file in .gitignore file.</li>
+<li>Access API key in App.js folder using command <em>process.env.{variable_name in .env.local}</em>.</li>
+</ul>
