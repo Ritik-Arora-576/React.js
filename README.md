@@ -68,4 +68,14 @@ There are the three life stages of React Component:
 <li><strong>Unmount:</strong> Death of React component.</li>
 </ol>
 </li>
+ 
+<li>
+Methods in React Component Lifecycle:
+<ol>
+<li><strong>render():</strong> It is used to render the HTML of components in react. It runs while mounting or updation of react compoent. We can't modify the state in render method.</li>
+<li><strong>componentDidMount():</strong> It runs after the component gets mount and rendered.</li>
+<li><strong>componentDidUpdate():</strong> Runs when props or state gets update.</li>
+ <li><strong>componentWillUnmount():</strong> It calls before component gets unmount or destroyed to perform some cleanups.</li>
+</ol>
+</li>
 </ul>
