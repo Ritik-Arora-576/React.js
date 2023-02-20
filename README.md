@@ -63,9 +63,9 @@ Go into the VS code terminal and execute the following commands:<br><br>
 <li>
 There are the three life stages of React Component:
 <ol>
-<li>Mounting: Birth of a React component.</li>
-<li>Update: Growth of React component.</li>
-<li>Unmount: Death of React component.</li>
+<li><strong>Mounting:</strong> Birth of a React component.</li>
+<li><strong>Update:</strong> Growth of React component.</li>
+<li><strong>Unmount:</strong> Death of React component.</li>
 </ol>
 </li>
 </ul>
