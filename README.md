@@ -57,3 +57,15 @@ Go into the VS code terminal and execute the following commands:<br><br>
   <li>Go to https://create-react-app.dev/docs/deployment/ to follow further steps.</li>
   <li>While deploying the react application it is not preferable to leave the comments inside a code.</li>
  </ul>
+<br>
+<h3 align='center'>React Component Lifecycle</h3>
+<ul>
+<li>
+There are the three life stages of React Component:
+<ol>
+<li>Mounting: Birth of a React component.</li>
+<li>Update: Growth of React component.</li>
+<li>Unmount: Death of React component.</li>
+</ol>
+</li>
+</ul>
