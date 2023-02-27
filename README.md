@@ -81,7 +81,7 @@ Methods in React Component Lifecycle:
  <br>
  <li>React Lifecycle Diagram: https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/</li>
  <br>
- <li><strong>NOTE: </strong><React.StrictMode> in index.js is responsible for running tiwce the useEffect or componentDidMount.</li>
+ <li><strong>NOTE: </strong>React.StrictMode in index.js is responsible for running twice the useEffect or componentDidMount.</li>
 </ul>
 <h3 align='center'>Hide API Key</h3>
 <ul>
